@@ -1,8 +1,9 @@
 {
-  "name": "auth-starter",
+  "name": "express-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
@@ -11,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JyotirmayBarman/node-auth-starter.git"
+    "url": "git+https://github.com/jyotirmaybarman/express-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JyotirmayBarman/node-auth-starter/issues"
+    "url": "https://github.com/jyotirmaybarman/express-boilerplate/issues"
   },
-  "homepage": "https://github.com/JyotirmayBarman/node-auth-starter#readme",
+  "homepage": "https://github.com/jyotirmaybarman/express-boilerplate#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",

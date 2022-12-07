@@ -1,5 +1,5 @@
-const express = require('express');
-const mainRouter = express.Router();
+import { Router } from 'express';
+const mainRouter = Router();
 
 /** new routers go here **
  * example
@@ -16,4 +16,4 @@ mainRouter.get('/',(req,res) => {
     })
 })
 
-module.exports = mainRouter;
+export default mainRouter;

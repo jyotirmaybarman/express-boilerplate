@@ -18,7 +18,7 @@ function errorHandler(err, req, res, next) {
     });
 }
 
-module.exports = {
+export {
     errorResolver,
     errorHandler
 }
